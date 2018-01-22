@@ -18,9 +18,9 @@ router.get('/', (req, res) => {
 
 
 
-router.get('/1', (req, res) => {
+router.get('/13.jpg', (req, res) => {
 
-  res.sendFile(path.resolve(__dirname+'/../public/img/19.jpg'));
+  res.sendFile(path.resolve(__dirname+'/../public/img/25.jpg'));
 });
 
 
