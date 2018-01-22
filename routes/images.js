@@ -11,7 +11,7 @@ function sleep(seconds){
 /* GET users listing. */
 router.get('/', (req, res) => {
 
-  var file = Math.floor((Math.random() * 12) + 1);
+  var file = Math.floor((Math.random() * 25) + 1);
 
   res.sendFile(path.resolve(__dirname+'/../public/img/' + file +'.jpg'));
 });
