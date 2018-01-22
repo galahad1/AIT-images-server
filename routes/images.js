@@ -18,70 +18,70 @@ router.get('/', (req, res) => {
 
 
 
-router.get('/1', (req, res) => {
+router.get('/13', (req, res) => {
 
-  res.sendFile(path.resolve(__dirname+'/../public/img/19.jpg'));
+  res.sendFile(path.resolve(__dirname+'/../public/img/13.jpg'));
 });
 
 
 
-router.get('/2', (req, res) => {
-  res.sendFile(path.resolve(__dirname+'/../public/img/20.jpg'));
+router.get('/14', (req, res) => {
+  res.sendFile(path.resolve(__dirname+'/../public/img/14.jpg'));
 });
 
 
 
-router.get('/3', (req, res) => {
 
-  var file = Math.floor((Math.random() * 25) + 1);
-
-res.sendFile(path.resolve(__dirname+'/../public/img/21.jpg'));
-});
-
-router.get('/4', (req, res) => {
-  res.sendFile(path.resolve(__dirname+'/../public/img/22.jpg'));
-
-});
-
-
-router.get('/5', (req, res) => {
-
-  res.sendFile(path.resolve(__dirname+'/../public/img/23.jpg'));
-
-});
-
-
-
-router.get('/6', (req, res) => {
-
-  res.sendFile(path.resolve(__dirname+'/../public/img/24.jpg'));
-
-});
-
-
-router.get('/7', (req, res) => {
-
-  res.sendFile(path.resolve(__dirname+'/../public/img/25.jpg'));
-
-});
-
-router.get('/8', (req, res) => {
-
+router.get('/15', (req, res) => {
   res.sendFile(path.resolve(__dirname+'/../public/img/15.jpg'));
 
 });
 
 
-router.get('/9', (req, res) => {
+router.get('/16', (req, res) => {
 
   res.sendFile(path.resolve(__dirname+'/../public/img/16.jpg'));
 
 });
 
 
-router.get('/10', (req, res) => {
+
+router.get('/17', (req, res) => {
 
   res.sendFile(path.resolve(__dirname+'/../public/img/17.jpg'));
+
+});
+
+
+router.get('/18', (req, res) => {
+
+  res.sendFile(path.resolve(__dirname+'/../public/img/18.jpg'));
+
+});
+
+router.get('/19', (req, res) => {
+
+  res.sendFile(path.resolve(__dirname+'/../public/img/19.jpg'));
+
+});
+
+
+router.get('/20', (req, res) => {
+
+  res.sendFile(path.resolve(__dirname+'/../public/img/20.jpg'));
+
+});
+
+
+router.get('/21', (req, res) => {
+
+  res.sendFile(path.resolve(__dirname+'/../public/img/21.jpg'));
+
+});
+
+router.get('/22', (req, res) => {
+
+  res.sendFile(path.resolve(__dirname+'/../public/img/22.jpg'));
 
 });
 
