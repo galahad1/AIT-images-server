@@ -12,7 +12,7 @@ function sleep(seconds){
 router.get('/', (req, res) => {
 
   var file = Math.floor((Math.random() * 12) + 1);
-  sleep(2);
+
   res.sendFile(path.resolve(__dirname+'/../public/img/' + file +'.jpg'));
 });
 
