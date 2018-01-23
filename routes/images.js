@@ -84,4 +84,10 @@ router.get('/22', (req, res) => {
 
 });
 
+router.get('/video', (req, res) => {
+
+  res.sendFile(path.resolve(__dirname+'/../public/img/video.mp4'));
+
+});
+
 module.exports = router;
